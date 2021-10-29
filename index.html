@@ -1,107 +1,142 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-157142099-1"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'UA-157142099-1');
-    </script>
-    <!-- google analytics end -->
-
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <title>taylor g: home</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <style type="text/css"></style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Source+Code+Pro&display=swap" rel="stylesheet">
+    <title>taylor gamache</title>
 </head>
-<body a="auto">
-    <div id="w">
-        <header>
-            <h1><a href="index.html">taylor g.</a></h1>
-            <p id="title">software engineer</p>
-        </header>
-        <hr>
-        <p class="section">recent projects:</p>
-        <ul>
-            <li class="project">📄 <a class="link" href="https://github.com/breakthatbass/tinyfs" target="_blank">tinyfs</a></li>
-            <ul>
-                <li>share files between seperate systems in a LAN through the terminal</li>
-                <li>written from scratch in C</li>
-                <li>is it secure? i doubt it</li>
-            </ul>
-<br>
-            <li class="project">📟 <a class="link" href="https://github.com/breakthatbass/tm4c-template" target="_blank">tm4c-template</a></li>
-            <ul>
-                <li>a simple development environment for writing firmware for the tm4c123 microcontroller</li>
-                <li>build, link, and flash to the board without an IDE</li>
-                <li>includes drivers and startup code</li>
-            </ul>
-            <br>
-            <li class="project">🎄 <a class="link" href="https://github.com/breakthatbass/xmas" target="_blank">xmas</a></li>
-            <ul>
-                <li>advent of code cli tool</li>
-                <li>download puzzle inputs and submit answers in your terminal</li>
-                <li>written in C with the libcurl library</li>
-            </ul>
-        </ul>
-        
-        <br>
-        <p class="section">other pretty cool stuff:</p>
-        <ul>
-            <li class="project">🐚 <a class="link" href="https://github.com/breakthatbass/minish" target="_blank">minish</a></li>
-            <ul>
-                <li>a minimal unix shell with pipes and redirection</li>
-                <li>written from scratch in C</li>
-            </ul>
-            <br>
-            <li class="project">👀 <a class="link" href="https://github.com/breakthatbass/lookfor" target="_blank">lookfor</a></li>
-            <ul>
-                <li>a user friendly version of a couple of find/grep commands</li>
-                <li>written in Python</li>
-            </ul>
-            <br>
-            <li class="project">🎅🏻 <a class="link" href="https://github.com/breakthatbass/advent_of_code2020" target="_blank">advent of code 2020</a></li>
-            <ul>
-                <li>my solutions in C to the puzzles from december 2020</li>
-                <li><i>in progress...</i></li>
-            </ul>
-            <br>
-            <li class="project">💾 <a class="link" href="https://github.com/breakthatbass/pee" target="_blank">pee</a></li>
-            <ul>
-                <li>the linux free command but for mac os</li>
-                <li>(p)ython fr(ee)</li>
-                <li>shows the amount of used and free memory in your system</li>
-            </ul>
-            <br>
-            <li class="project">🦩 <a class="link" href="https://github.com/breakthatbass/c-libs" target="_blank">c-libs</a></li>
-            <ul>
-                <li>a collection of c utility libs i've made over time</li>
-                <li>fully tested</li>
-            </ul>
-            <br>
-            <li class="project">📓 <a class="link" href="https://github.com/breakthatbass/notes.py" target="_blank">notes.py</a></li>
-            <ul>
-                <li>my personal man pages for things i regularly forget</li>
-                <li>probably not useful for anyone else</li>
-            </ul>
-            <br>
-            <li class="project">🛠 <a class="link" href="https://github.com/breakthatbass/dotfiles" target="_blank">.dotfiles</a></li>
-            <ul>
-                <li>my config files for zsh, vim, and other things</li>
-            </ul>
-        </ul>
-        <nav>
-            <a class="navlink" href="https://github.com/breakthatbass" target="_blank">github</a>
-            <a class="navlink" href="ed.html">education</a>
-            <a class="navlink" href="about.html">about</a>
-            <a class="navlink" href="https://www.buymeacoffee.com/breakthatbass" target="_blank">☕️</a>
-        </nav>
+<body>
+    <div id='wrapper'>
+        <div id='content'>
+            <section>
+                <h1>breakthatbass</h1>
+                <p>My name is Taylor and I'm a software engineer living in southern NH. 
+                    I'm particularly interested in systems programming I've recently gotten into writing firmware.
+                    I also love playing tennis and getting outside.
+                </p>
+                <p>
+                    <a href='mailto:gamache.taylor@gmail.com'>email</a>
+                    /   
+                    <a href='https://github.com/breakthatbass' target='_blank'>github</a>
+                </p>
+            </section>
+            <section>
+                <h1>Projects</h1>
+
+                <h2>
+                    <a href='https://github.com/breakthatbass/xmas' target='_blank'>xmas</a>
+                </h2>
+                <p>
+                    A cli program to download puzzle input files and submit puzzle answers for Advent of Code puzzles.
+                    It tries to cache everything it can to minimize calls to the AoC servers.
+                </p>
+
+                <h2>
+                    <a href='https://github.com/breakthatbass/tinyfs' target='_blank'>tinyfs</a>
+                </h2>
+                <p>
+                    A simple server/client program in C to share files of any type and any size between systems in a LAN.
+                </p>
+
+                <h2>
+                    <a href='https://github.com/breakthatbass/c-libs' target='_blank'>c-libs</a>
+                </h2>
+                <p>
+                    A collection of libraries I've built over time in C. There are a bunch of
+                    string processing functions, a list library, a super simple header file timing
+                    library, and a bunch of other pretty cool stuff. This repo is always growing.
+                </p>
+                <h2>
+                    <a href='https://github.com/breakthatbass/conway' target='_blank'>conway</a>
+                </h2>
+                <p>
+                    A visualizer for John Conway's game of life algorithm in C. It reads from run length encoded
+                    (RLE) files, which are compressed files containing data on placement of squares in a grid.
+                    The program reads in an RLE file, decompresses it, and runs the algorithm over the grid.
+                    And you get to see it happen!
+                </p>
+
+                <h1>Tools</h1>
+
+                <h2>
+                    <a href='https://github.com/breakthatbass/cdox' target='_blank'>cdox</a>
+                </h2>
+                <p>
+                    A tool to create documentation of C source files in Markdown format
+                    based on comments in the code. It's sort of like Javadocs or Doxygen
+                    except much simpler and only has a small amount of keywords.
+                </p>
+                
+                <h2>
+                    <a href='https://github.com/breakthatbass/jvm-algs4' target='_blank'>jvm-algs4</a>
+                </h2>
+                <p>
+                    A program to automate the compiling and running of Java programs for use with the textbook <i>Algorithms</i>
+                    by Robert Sedgewick and Kevin Wayne. For most of the exercises in the book, you have to
+                    use the library provided with the book. <code>jvm-algs4</code> lets you compile and run the code
+                    while more easily linking the library. 
+                </p>
+                
+                <h2>
+                    <a href='https://github.com/breakthatbass/conv' target='_blank'>conv</a>
+                </h2>
+                <p>
+                    A tool to add and convert decimal, hexadecimal, and binary numbers.
+                    It takes any number of arguments and attempts to add them together. It gives the sum in three forms:
+                    decimal, hexadecimal, and binary. It's a tool mostly for working with embedded systems.
+                </p>
+
+                <h1>Misc.</h1>
+                <p>This section contains links to repos that aren't projects or tools. Thye're mostly my self education in CS.</p>
+                <h2>
+                    <a href='https://github.com/breakthatbass/algorithms' target='_blank'>algorithms 4th edition</a>
+                </h2>
+                <p>
+                    I've been working through the textbook <a href='https://www.amazon.com/Algorithms-4th-Robert-Sedgewick/dp/032157351X/ref=sr_1_6?crid=32U4XP4111YLS&dchild=1&keywords=algorithms&qid=1635542905&sprefix=algorithim%2Caps%2C169&sr=8-6' target='_blank'><i>Algorithms (4th Edition)</i></a>
+                    by Robert Sedgewick and Kevin Wayne. It's pretty cool. The repo hold all my solutions to the exercises.
+                    NOTE: it's a massive book (like every CS book) so it's a work in progress. I get to it when I can.
+                </p>
+
+                <h2>
+                    <a href='https://github.com/breakthatbass/OStep' target='_blank'>OStep</a>
+                </h2>
+                <p>
+                    I worked through the textbook <a href='https://pages.cs.wisc.edu/~remzi/OSTEP/' target='_blank'><i>Operating Systems: Three Easy Pieces</i></a>
+                    over the long and dark winter during Covid. I (mostly) finished it as well as some of the <a href='https://github.com/remzi-arpacidusseau/ostep-projects' target='_blank'>
+                    projects listed on the OStep GitHub</a>. 
+                </p>
+
+                <h2>
+                    <a href='https://github.com/breakthatbass/c_programming_language' target='_blank'>k&r</a>
+                </h2>
+                <p>
+                    Most computer science textbook are so freaking huge, I have doubts at the number of people
+                    that make it though the entirety of these books. Adult life just simply doesn't provide enough time
+                    for such endeavors. <a href='https://www.amazon.com/Programming-Language-2nd-Brian-Kernighan/dp/0131103628/ref=sr_1_1?dchild=1&keywords=the+c+programming+language&qid=1635543481&sprefix=the+c+programmin%2Caps%2C94&sr=8-1' target='_blank'>
+                    <i>The C Programming Language</i></a> aka <i>k&r</i> is an anomaly in CS textbooks. Not counting the appendices,
+                    it comes in at only 189 pages and covers the entirety of the C language plus plenty of systems level POSIX stuff.
+                    It's really a masterpiece in technical writing.
+                    This repo contains all my solutions to the exercises in the book. If you don't have this book, go buy it now.
+                </p>
+
+                <h2>
+                    <a href='https://github.com/breakthatbass/cs50' target='_blank'>cs50</a>
+                </h2>
+                    <p>
+                        Harvard provides a free online course called <a href='https://cs50.harvard.edu/x/2019/' target='_blank'>cs50</a>
+                        which acts as an introduction to computer science. It covers all the basics of CS without going to deep into any of it.
+                        Most of the course uses C and the rest Python. This course set me up pretty well. After, I stuck with both C and Python
+                        and still heavily use both languages to this day. This repo holds all my work from the course.
+                    </p>
+                
+            </section>
+        </div>
     </div>
 </body>
 </html>
