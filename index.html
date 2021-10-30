@@ -17,13 +17,12 @@
             <section>
                 <h1>breakthatbass</h1>
                 <p>My name is Taylor and I'm a software engineer living in southern NH. 
-                    I'm particularly interested in systems programming I've recently gotten into writing firmware.
-                    I also love playing tennis and getting outside.
+                    I'm interested in systems programming, embedded systems, and algorithms.
+                    I also love playing tennis and getting outside. All my work is on 
+                    <a href='https://github.com/breakthatbass' target='_blank'>github</a>.
                 </p>
                 <p>
-                    <a href='mailto:gamache.taylor@gmail.com'>email</a>
-                    /   
-                    <a href='https://github.com/breakthatbass' target='_blank'>github</a>
+                    If you want to contact me, send me an <a href='mailto:gamache.taylor@gmail.com'>email</a>
                 </p>
             </section>
             <section>
@@ -33,8 +32,10 @@
                     <a href='https://github.com/breakthatbass/xmas' target='_blank'>xmas</a>
                 </h2>
                 <p>
-                    A cli program to download puzzle input files and submit puzzle answers for Advent of Code puzzles.
+                    A cli program to download puzzle input files and submit puzzle answers for 
+                    <a href='https://adventofcode.com/' target='_blank'>Advent of Code</a> puzzles.
                     It tries to cache everything it can to minimize calls to the AoC servers.
+                    Uses the <a href='https://curl.se/libcurl/' target='_blank'>libcurl</a> C library.
                 </p>
 
                 <h2>
@@ -56,10 +57,9 @@
                     <a href='https://github.com/breakthatbass/conway' target='_blank'>conway</a>
                 </h2>
                 <p>
-                    A visualizer for John Conway's game of life algorithm in C. It reads from run length encoded
-                    (RLE) files, which are compressed files containing data on placement of squares in a grid.
-                    The program reads in an RLE file, decompresses it, and runs the algorithm over the grid.
-                    And you get to see it happen!
+                    A visualizer for <a href='https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life' target='_blank'>
+                    Conway's game of life</a> algorithm in C. It reads from run length encoded
+                    (RLE) files, which are compressed files containing data on the placement of squares in a grid.
                 </p>
 
                 <h1>Tools</h1>
@@ -70,17 +70,15 @@
                 <p>
                     A tool to create documentation of C source files in Markdown format
                     based on comments in the code. It's sort of like Javadocs or Doxygen
-                    except much simpler and only has a small amount of keywords.
+                    except much simpler.
                 </p>
                 
                 <h2>
                     <a href='https://github.com/breakthatbass/jvm-algs4' target='_blank'>jvm-algs4</a>
                 </h2>
                 <p>
-                    A program to automate the compiling and running of Java programs for use with the textbook <i>Algorithms</i>
-                    by Robert Sedgewick and Kevin Wayne. For most of the exercises in the book, you have to
-                    use the library provided with the book. <code>jvm-algs4</code> lets you compile and run the code
-                    while more easily linking the library. 
+                    A program to automate the compiling and running of Java programs with the algs4 lib for use with the textbook <i>Algorithms</i>
+                    by Robert Sedgewick and Kevin Wayne.
                 </p>
                 
                 <h2>
@@ -89,18 +87,17 @@
                 <p>
                     A tool to add and convert decimal, hexadecimal, and binary numbers.
                     It takes any number of arguments and attempts to add them together. It gives the sum in three forms:
-                    decimal, hexadecimal, and binary. It's a tool mostly for working with embedded systems.
+                    decimal, hexadecimal, and binary.
                 </p>
 
                 <h1>Misc.</h1>
-                <p>This section contains links to repos that aren't projects or tools. Thye're mostly my self education in CS.</p>
                 <h2>
                     <a href='https://github.com/breakthatbass/algorithms' target='_blank'>algorithms 4th edition</a>
                 </h2>
                 <p>
                     I've been working through the textbook <a href='https://www.amazon.com/Algorithms-4th-Robert-Sedgewick/dp/032157351X/ref=sr_1_6?crid=32U4XP4111YLS&dchild=1&keywords=algorithms&qid=1635542905&sprefix=algorithim%2Caps%2C169&sr=8-6' target='_blank'><i>Algorithms (4th Edition)</i></a>
-                    by Robert Sedgewick and Kevin Wayne. It's pretty cool. The repo hold all my solutions to the exercises.
-                    NOTE: it's a massive book (like every CS book) so it's a work in progress. I get to it when I can.
+                    by Robert Sedgewick and Kevin Wayne. The repo hold all my solutions to the exercises.
+                    It's a massive book (like every CS book) so it's a work in progress. I get to it when I can.
                 </p>
 
                 <h2>
@@ -108,7 +105,7 @@
                 </h2>
                 <p>
                     I worked through the textbook <a href='https://pages.cs.wisc.edu/~remzi/OSTEP/' target='_blank'><i>Operating Systems: Three Easy Pieces</i></a>
-                    over the long and dark winter during Covid. I (mostly) finished it as well as some of the <a href='https://github.com/remzi-arpacidusseau/ostep-projects' target='_blank'>
+                    over the winter during Covid. I (mostly) finished it as well as some of the <a href='https://github.com/remzi-arpacidusseau/ostep-projects' target='_blank'>
                     projects listed on the OStep GitHub</a>. 
                 </p>
 
@@ -116,23 +113,18 @@
                     <a href='https://github.com/breakthatbass/c_programming_language' target='_blank'>k&r</a>
                 </h2>
                 <p>
-                    Most computer science textbook are so freaking huge, I have doubts at the number of people
-                    that make it though the entirety of these books. Adult life just simply doesn't provide enough time
-                    for such endeavors. <a href='https://www.amazon.com/Programming-Language-2nd-Brian-Kernighan/dp/0131103628/ref=sr_1_1?dchild=1&keywords=the+c+programming+language&qid=1635543481&sprefix=the+c+programmin%2Caps%2C94&sr=8-1' target='_blank'>
-                    <i>The C Programming Language</i></a> aka <i>k&r</i> is an anomaly in CS textbooks. Not counting the appendices,
-                    it comes in at only 189 pages and covers the entirety of the C language plus plenty of systems level POSIX stuff.
-                    It's really a masterpiece in technical writing.
-                    This repo contains all my solutions to the exercises in the book. If you don't have this book, go buy it now.
+                    <a href='https://www.amazon.com/Programming-Language-2nd-Brian-Kernighan/dp/0131103628/ref=sr_1_1?dchild=1&keywords=the+c+programming+language&qid=1635543481&sprefix=the+c+programmin%2Caps%2C94&sr=8-1' target='_blank'>
+                    <i>The C Programming Language</i></a> (aka <i>k&r</i>) is only 189 pages and it covers the entire language.
+                    It's awesome. This repo holds my soultions to the exercises in the book.
                 </p>
 
                 <h2>
                     <a href='https://github.com/breakthatbass/cs50' target='_blank'>cs50</a>
                 </h2>
                     <p>
-                        Harvard provides a free online course called <a href='https://cs50.harvard.edu/x/2019/' target='_blank'>cs50</a>
-                        which acts as an introduction to computer science. It covers all the basics of CS without going to deep into any of it.
-                        Most of the course uses C and the rest Python. This course set me up pretty well. After, I stuck with both C and Python
-                        and still heavily use both languages to this day. This repo holds all my work from the course.
+                        <a href='https://cs50.harvard.edu/x/2019/' target='_blank'>cs50</a>
+                        and an introdcutory CS course provided for free from Harvard. This repo holds
+                        my solutions to all the exercises from the course.
                     </p>
                 
             </section>
