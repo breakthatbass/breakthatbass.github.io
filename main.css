@@ -1,7 +1,8 @@
 body {
     /*font-family: 'Mate', serif;*/
-    font-family: 'PT Serif', serif;
-    background-color: #F0F0F3;
+    /*font-family: 'PT Serif', serif;*/
+    font-family: 'Source Sans Pro', sans-serif;
+    /*background-color: #F0F0F3;*/
     color: #363636;
 }
 
@@ -42,12 +43,13 @@ h2 {
 
 p {
     line-height: 140%;
-    font-size: 16px;
+    font-size: 15px;
 }
 
 a {
     color: #865F60;
     text-decoration: none;
+    font-weight: 600;
 }
 
 @media screen and (max-width: 950px) {
