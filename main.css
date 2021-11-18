@@ -41,6 +41,10 @@ h2 {
     border-bottom: 0.08em #cccccc solid;
 }
 
+code {
+    color: #249E4F;
+}
+
 p {
     line-height: 140%;
     font-size: 15px;
